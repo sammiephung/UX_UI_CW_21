@@ -1,0 +1,58 @@
+.navbar {
+    height: 8vh;
+}
+
+.navbar-brand img {
+    width: 20%;
+}
+
+.nav-item {
+    width: 150px;
+}
+
+.btn {
+    margin-left: 15px;
+}
+
+.boxOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52vh;
+    background-image: url(https://i.pinimg.com/originals/b7/84/37/b7843783419f4b6d6a26036b73d3fddd.jpg);
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 46px 16px;
+}
+
+.flexBox {
+    display: flex;
+}
+
+.boxTwo {
+    height: 34vh;
+    width: 50%;
+    background-image: url(https://www.proactiveinvestors.com/thumbs/upload/News/Image/2020_01/672z311_1578992584_2020-01-14-09-03-04_1508f240f180c5a901e315602e665df3.jpg);
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    padding: 36px 16px;
+}
+
+.boxThree {
+    height: 34vh;
+    width: 50%;
+    background-image: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQ0ZYKHS_l40/v1/1000x-1.jpg);
+    background-color: lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    padding: 36px 16px;
+}
+
+.footerNavBar {
+    height: 6vh;
+}
