@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .navbar {
     height: 8vh;
 }
@@ -21,38 +25,77 @@
     align-items: center;
     height: 52vh;
     background-image: url(https://i.pinimg.com/originals/b7/84/37/b7843783419f4b6d6a26036b73d3fddd.jpg);
-    background-color: lightgreen;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 46px 16px;
 }
 
+.boxOne img {
+    width: auto;
+}
+
+.startedHero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-image: url(https://www.proactiveinvestors.com/thumbs/upload/News/Image/2020_01/672z311_1578992584_2020-01-14-09-03-04_1508f240f180c5a901e315602e665df3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blackOverlay {
+    margin: 0px;
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.startedHero h1 {
+    position: absolute;
+    z-index: 1;
+}
 
 .flexBox {
     display: flex;
 }
 
 .boxTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 34vh;
     width: 50%;
     background-image: url(https://www.proactiveinvestors.com/thumbs/upload/News/Image/2020_01/672z311_1578992584_2020-01-14-09-03-04_1508f240f180c5a901e315602e665df3.jpg);
-    background-color: lightgreen;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;    
-    padding: 36px 16px;
+    transition: 0.6s;
+}
+
+.boxTwo:hover {
+    background-size: 110%;
 }
 
 .boxThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 34vh;
     width: 50%;
     background-image: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQ0ZYKHS_l40/v1/1000x-1.jpg);
-    background-color: lightgreen;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;   
-    padding: 36px 16px;
+    transition: 0.6s;
+}
+
+.boxThree:hover {
+    background-size: 110%;
 }
 
 .footerNavBar {

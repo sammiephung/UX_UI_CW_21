@@ -43,6 +43,7 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><img src="../UX_UI_CW_21/images/GWLogo1Line2018_web.png"
                 class="d-inline-block align-top" alt=""></a>
@@ -50,17 +51,16 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Homepage <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Getting Started</a>
+                    <a class="nav-link" href="getstarted.html">Getting Started</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tips and Tricks</a>
+                    <a class="nav-link" href="tips.html">Tips and Tricks</a>
                 </li>
             </ul>
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -71,34 +71,35 @@
         <div class="boxOne">
             <div><img src="https://qph.fs.quoracdn.net/main-qimg-843133dbde6236cec846a814dcc80dbe"></div>
         </div>
+
         <div class="flexBox">
-            <div class="boxTwo text-light">
-                <h2>Getting Started</h2>
+            <div onclick="location.href='getstarted.html';" style="cursor: pointer;" class="boxTwo text-light">
+                <h1>Getting Started</h1>
             </div>
-            <div class="boxThree text-light">
-                <h2>Tips and Tricks</h2>
+
+
+            <div onclick="location.href='tips.html';" style="cursor: pointer;" class="boxThree text-light">
+                <h1>Tips and Tricks</h1>
             </div>
         </div>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark footerNavBar">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hobby 1<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hobby 2</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hobby 3</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
     </section>
 
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark footerNavBar">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hobby 1<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hobby 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hobby 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 </body>
 
